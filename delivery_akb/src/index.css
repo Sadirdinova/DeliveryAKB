@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.button {
+    background-color: #2947be;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: rgb(41, 71, 190, 0.8);
+}
+
+.input {
+    outline: none;
+    border: solid 1px #2947be;
+    background: transparent;
+    border-radius: 2px;
+    width: 100%;
+    padding: 4px;
+}
